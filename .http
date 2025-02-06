@@ -1,0 +1,11 @@
+GET http://localhost:8000/api/resolverCaptcha?captcha_url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fvocabulary-notebook-989d7.appspot.com%2Fo%2Fassets%252F112194.jpg%3Falt%3Dmedia%26token%3D6b582c4d-5dda-43f6-b6a6-9abc6d360352
+###
+
+GET https://5317-2405-4802-6375-7170-4892-adaf-fd06-5062.ngrok-free.app/api/resolverCaptcha?captcha_url=https://cdn.discordapp.com/ephemeral-attachments/1211813163142479953/1337032438450356254/captcha.png?ex=67a5f7fe&is=67a4a67e&hm=f6e677d10f444ab043baf53cbe4f696db28fd1535b82fce8cce93a79ce36ed8d&
+###
+
+POST https://5317-2405-4802-6375-7170-4892-adaf-fd06-5062.ngrok-free.app/api/resolverCaptcha/
+Content-Type: application/json
+
+{"url":"https://media.discordapp.net/ephemeral-attachments/1211813163142479953/1337036478152445993/captcha.png?ex=67a5fbc1&is=67a4aa41&hm=c832a860dff632c9dd9f2d6ad948cce1764462580d054c2de1aa1275c76f58ac&=&format=webp&quality=lossless"}
+###

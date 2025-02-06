@@ -1,0 +1,17 @@
+version: '3.10.7'
+
+services:
+  django:
+    container_name: django
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./:/usr/src/app/
+    ports:
+      - "8001:8000"
+    environment:
+      - DEBUG=True
+      - SECRET_KEY=django-insecure-a16rz)d4!sn3+gc&8rhil1z37y=*90mpe1%kb$9cfjfb--!#69
+      - ALLOWED_HOSTS=5317-2405-4802-6375-7170-4892-adaf-fd06-5062.ngrok-free.app,lolcalhost
